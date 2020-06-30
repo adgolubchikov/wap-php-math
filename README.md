@@ -1,4 +1,4 @@
-##WAP site written on PHP, for old mobile phones
+## WAP site written on PHP, for old mobile phones
 
 You need just PHP 5.0+. Pages are in XHTML 1.0 Mobile standard. 
 
