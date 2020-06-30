@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/xhtml+xml; charset=utf-8" />
+<title>3D Mobile</title>
+</head>
+<body>
+<p align="center">
+<a href="/">На главную</a><br/>
+</p>
+<form action="graph.php">
+<p align="center">
+Формат катринки: <select name="format">
+<option value="gif" selected="selected">GIF</option>
+<option value="jpeg">JPEG</option>
+<option value="png">PNG</option>
+<option value="wbmp">WBMP</option>
+</select><br/>
+Высота: <input type="text" name="height" value="500" /><br/>
+Ширина: <input type="text" name="width" value="500" /><br/>
+Xmin:<input type="text" name="xmin" value="0" />
+Xmax:<input type="text" name="xmax" value="3" /><br/>
+Ymin:<input type="text" name="ymin" value="0" />
+Ymax:<input type="text" name="ymax" value="3" /><br/>
+Zmin:<input type="text" name="zmin" value="0" />
+Zmax:<input type="text" name="zmax" value="3" /><br/>
+Точность:<input type="text" name="steps" value="20" /><br/>
+Формула:<input type="text" name="f" value="sin(x)*cos(y)" /><br/>
+<input type="submit" value="Построить" />
+</p>
+</form>
+</body>
+</html>
